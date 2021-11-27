@@ -1,0 +1,50 @@
+
+body{
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 0.2rem 1rem;
+    font-size: larger;
+}
+input {
+    padding: 0.5rem 2rem;
+    width: 30%;
+    display: block;
+    margin: 2rem auto;
+    font-size: larger;
+    text-align: left;
+    border-radius: 12px;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 4rem;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: azure;
+}
+
+#output {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 1rem;
+}
+img{
+    max-width: 470px;
+    height: 300px;
+    
+    margin: auto;
+    
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
