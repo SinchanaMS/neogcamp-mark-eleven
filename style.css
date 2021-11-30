@@ -37,8 +37,8 @@ button {
 }
 img{
     max-width: 470px;
-    height: 300px;
-    
+    height: 200px;
+    width: 250px;
     margin: auto;
     
 }
@@ -46,5 +46,46 @@ img{
 .container{
     margin: auto;
     text-align: center;
-    display: block;
+    display: block; 
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+ul {
+    list-style-type:0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    padding-top: 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 1rem 0px 1rem;
+    margin-top: 1rem; 
+    text-align: center;
+    color: black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: block; bottom: 0px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.footer .link{
+    color: Black;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
 }
